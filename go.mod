@@ -12,7 +12,7 @@ replace github.com/prometheus/prometheus => github.com/prometheus/prometheus v0.
 
 require (
 	buf.build/gen/go/parca-dev/parca/connectrpc/go v1.17.0-20240902100956-02fd72488966.1 // @grafana/observability-traces-and-profiling
-	buf.build/gen/go/parca-dev/parca/protocolbuffers/go v1.34.2-20240902100956-02fd72488966.2 // @grafana/observability-traces-and-profiling
+	buf.build/gen/go/parca-dev/parca/protocolbuffers/go v1.36.11-20260413103946-e19e4fde69b5.1 // @grafana/observability-traces-and-profiling
 	cloud.google.com/go/kms v1.18.5 // @grafana/grafana-backend-group
 	cloud.google.com/go/storage v1.43.0 // @grafana/grafana-backend-group
 	connectrpc.com/connect v1.17.0 // @grafana/observability-traces-and-profiling
@@ -67,7 +67,7 @@ require (
 	github.com/golang/mock v1.6.0 // @grafana/alerting-backend
 	github.com/golang/protobuf v1.5.4 // @grafana/grafana-backend-group
 	github.com/golang/snappy v0.0.4 // @grafana/alerting-backend
-	github.com/google/go-cmp v0.6.0 // @grafana/grafana-backend-group
+	github.com/google/go-cmp v0.7.0 // @grafana/grafana-backend-group
 	github.com/google/uuid v1.6.0 // @grafana/grafana-backend-group
 	github.com/google/wire v0.6.0 // @grafana/grafana-backend-group
 	github.com/googleapis/gax-go/v2 v2.13.0 // @grafana/grafana-backend-group
@@ -183,7 +183,7 @@ require (
 	gonum.org/v1/gonum v0.15.1 // @grafana/observability-metrics
 	google.golang.org/api v0.193.0 // @grafana/grafana-backend-group
 	google.golang.org/grpc v1.67.1 // @grafana/plugins-platform-backend
-	google.golang.org/protobuf v1.35.2 // @grafana/plugins-platform-backend
+	google.golang.org/protobuf v1.36.11 // @grafana/plugins-platform-backend
 	gopkg.in/ini.v1 v1.67.0 // @grafana/alerting-backend
 	gopkg.in/mail.v2 v2.3.1 // @grafana/grafana-backend-group
 	gopkg.in/yaml.v3 v3.0.1 // @grafana/alerting-backend
